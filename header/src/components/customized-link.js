@@ -1,6 +1,6 @@
+import Link from 'react-router-dom/Link'
 import PropTypes from 'prop-types'
 import React from 'react'
-import { Link } from 'react-router-dom'
 import { linkType } from 'shared/configs'
 
 const CustomizedLink = ({ children, currentLinkType, path, onClick }) => {

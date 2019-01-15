@@ -1,9 +1,9 @@
 import DarkBgIcon from '../../static/link-arrow-darkbg.svg'
+import Link from 'react-router-dom/Link'
 import LinkIcon from '../../static/link-arrow.svg'
 import PropTypes from 'prop-types'
 import React from 'react'
 import styled from 'styled-components'
-import { Link } from 'react-router-dom'
 import { colors, fonts } from '../../styles/common-variables'
 
 const Wrapper = styled.div`

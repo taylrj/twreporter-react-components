@@ -1,8 +1,8 @@
+import Link from 'react-router-dom/Link'
 import PropTypes from 'prop-types'
 import React from 'react'
 import RightArrowIcon from '../../static/arrow-right.svg'
 import styled from 'styled-components'
-import { Link } from 'react-router-dom'
 import { arrayToCssShorthand, screen, resetLinkStyle } from 'shared/style-utils'
 import { colors, fonts } from 'shared/common-variables'
 
