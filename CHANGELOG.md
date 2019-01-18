@@ -1,5 +1,6 @@
 ### UNRELEASED
-- Upgrade react-router to v4.3.1
+- Upgrade react-router@^4.3.1
+- Upgrade styled-components@^4.1.3
 
 ### 5.1.3
 - Add url event label to google analysis click event
