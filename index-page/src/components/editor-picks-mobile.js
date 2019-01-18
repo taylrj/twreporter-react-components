@@ -33,7 +33,7 @@ const mockup = {
   },
 }
 
-const CarouselContainer = Section.extend`
+const CarouselContainer = styled(Section)`
   padding-top: 0;
   background: ${colors.sectionWhite};
   @media (min-width: ${breakPoints.tabletMinWidth}) {

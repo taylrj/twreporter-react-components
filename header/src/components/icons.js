@@ -92,14 +92,14 @@ const IconContainer = styled.div`
   `}
 `
 
-const DisplayOnDesktop = IconContainer.extend`
+const DisplayOnDesktop = styled(IconContainer)`
   display: none;
   ${screen.desktopAbove`
     display: table-cell;
   `}
 `
 
-const HideOnDesktop = IconContainer.extend`
+const HideOnDesktop = styled(IconContainer)`
   display: table-cell;
   ${screen.desktopAbove`
     display: none;

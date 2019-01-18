@@ -141,13 +141,13 @@ const TopicDescription = styled.div`
   text-align: justify;
 `
 
-const DesktopDescription = TopicDescription.extend`
+const DesktopDescription = styled(TopicDescription)`
   ${screen.mobileOnly`
     display: none;
   `}
 `
 
-const MobileDescription = TopicDescription.extend`
+const MobileDescription = styled(TopicDescription)`
   display: none;
   ${screen.mobileOnly`
     display: block;
