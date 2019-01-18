@@ -42,13 +42,13 @@
     "lint-staged": "^4.0.2",
     "merge-stream": "^1.0.1",
     "pre-commit": "^1.2.2",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0",
     "rimraf": "^2.6.1"
   },
   "peerDependencies": {
-    "react": "^15.4.1 || ^16.0.0",
-    "react-dom": "^15.4.1 || ^16.0.0",
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0",
     "react-helmet": "^4.0.0 || ^5.0.0",
     "react-router": "^4.3.1"
   },
@@ -63,6 +63,6 @@
     "react-transition-group": "^1.2.1",
     "react-waypoint": "^7.0.3",
     "smoothscroll": "^0.3.0",
-    "styled-components": "^3.0.0"
+    "styled-components": "^4.1.3"
   }
 }
