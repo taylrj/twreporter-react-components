@@ -1,4 +1,4 @@
-import Link from 'react-router-dom/Link'
+import LinkWrapper from 'shared/components/link-wrapper'
 import PropTypes from 'prop-types'
 import React from 'react'
 import get from 'lodash/get'
@@ -203,9 +203,9 @@ class Channels extends React.PureComponent {
           data-channel-name={channelName}
           fontColor={fontColor}
         >
-          <Link to={channelType !== 'link' ? null : `${channelPrefix}${channelPath}`} style={channelStyles}>
+          <LinkWrapper to={channelType !== 'link' ? null : `${channelPrefix}${channelPath}`} style={channelStyles}>
             {channelText}
-          </Link>
+          </LinkWrapper>
         </ChannelContainer>
       )
     })
